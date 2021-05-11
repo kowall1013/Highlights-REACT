@@ -1,8 +1,10 @@
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
+
+import { Wrapper } from "./Header.styles";
 
 function Header() {
   return (
-    <div>
+    <Wrapper>
       <nav>
         <ul>
           <li>
@@ -16,7 +18,7 @@ function Header() {
           </li>
         </ul>
       </nav>
-    </div>
+    </Wrapper>
   );
 }
 
