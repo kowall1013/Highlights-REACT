@@ -5,7 +5,7 @@ import { Home, Spanish } from "./pages";
 
 function App() {
   return (
-    <Router>
+    <>
       <Header />
       <Switch>
         <Route exact path="/">
@@ -15,7 +15,7 @@ function App() {
           <Spanish />
         </Route>
       </Switch>
-    </Router>
+    </>
   );
 }
 
