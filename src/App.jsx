@@ -1,5 +1,6 @@
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 
+import "./normalize.css";
 import { Header } from "./components";
 import { Home, Spanish } from "./pages";
 
