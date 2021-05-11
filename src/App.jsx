@@ -1,12 +1,21 @@
-import { Provider } from "react-redux";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-import store from "./redux/Store";
+import { Header } from "./components";
+import { Home, Spanish } from "./pages";
 
 function App() {
   return (
-    <Provider store={store}>
-      <h1>Mateusz</h1>
-    </Provider>
+    <Router>
+      <Header />
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/spanish">
+          <Spanish />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 
