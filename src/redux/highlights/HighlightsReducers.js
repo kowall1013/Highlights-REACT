@@ -7,7 +7,7 @@ import {
 const initialState = {
   loading: false,
   highlights: [],
-  errors: "",
+  error: "",
 };
 
 export const highlightsReducer = (state = initialState, action) => {
@@ -27,7 +27,7 @@ export const highlightsReducer = (state = initialState, action) => {
       return {
         ...state,
         loading: false,
-        errors: action.payload,
+        error: action.payload,
       };
 
     default:

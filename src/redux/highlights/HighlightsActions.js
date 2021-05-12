@@ -13,7 +13,7 @@ export const fetchHighlights = () => {
     fetch(API_URL)
       .then((response) => response.json())
       .then((data) => dispatch(fetchHighlightsSuccess(data)))
-      .catch((error) => fetchHighlightsFailure(error));
+      .catch((error) => dispatch(fetchHighlightsFailure(error.message)));
   };
 };
 
