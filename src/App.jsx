@@ -1,8 +1,13 @@
+//extrenal
 import { Switch, Route } from "react-router-dom";
 
+//internal
 import "./normalize.css";
 import { Header } from "./components";
 import { Home, Spanish } from "./pages";
+
+//styles
+import { Wrapper } from "./App.styles";
 
 function App() {
   return (
@@ -10,14 +15,14 @@ function App() {
       <Header />
       <Switch>
         <>
-          <div>
+          <Wrapper>
             <Route exact path="/">
               <Home />
             </Route>
             <Route path="/spanish">
               <Spanish />
             </Route>
-          </div>
+          </Wrapper>
         </>
       </Switch>
     </>
