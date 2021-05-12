@@ -9,12 +9,16 @@ function App() {
     <>
       <Header />
       <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route path="/spanish">
-          <Spanish />
-        </Route>
+        <>
+          <div>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route path="/spanish">
+              <Spanish />
+            </Route>
+          </div>
+        </>
       </Switch>
     </>
   );
