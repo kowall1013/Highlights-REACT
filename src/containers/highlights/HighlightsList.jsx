@@ -8,7 +8,7 @@ function HighlightsList({ highlights }) {
   const highlight = highlights.map((item) => {
     return (
       <li key={`highlight ${item.title}`}>
-        <HighlightItem highlight={item} />;
+        <HighlightItem highlight={item} />
       </li>
     );
   });
