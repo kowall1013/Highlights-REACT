@@ -14,7 +14,7 @@ function Header() {
             <Link to="/spanish">Spanish</Link>
           </li>
           <li>
-            <Link to="/germany">Germany</Link>
+            <Link to="/germany">Germanyy</Link>
           </li>
         </ul>
       </nav>
