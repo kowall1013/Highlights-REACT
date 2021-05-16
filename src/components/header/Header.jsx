@@ -11,10 +11,10 @@ function Header() {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/spanish">Spanish</Link>
+            <Link to="/spanish">Spanish.</Link>
           </li>
           <li>
-            <Link to="/germany">Germanyy</Link>
+            <Link to="/germany">Germanyyy</Link>
           </li>
         </ul>
       </nav>

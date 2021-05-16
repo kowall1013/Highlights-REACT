@@ -1,7 +1,7 @@
 function Spanish() {
   return (
     <div>
-      <h1>Spanish</h1>
+      <h1>Spanish...</h1>
     </div>
   );
 }
