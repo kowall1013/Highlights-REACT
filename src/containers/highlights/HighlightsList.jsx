@@ -2,7 +2,7 @@ import HighlightItem from "./HighlightItem";
 
 function HighlightsList({ highlights }) {
   if (highlights === []) {
-    return <h1>Loading.....</h1>;
+    return <h1>Loading.....List</h1>;
   }
 
   const highlight = highlights.map((item) => {
