@@ -18,7 +18,7 @@ function Home() {
 
   const copyHighlights = highlights.highlights.slice(0, 10);
 
-  if (highlights.loading) return <h1>Loading.......</h1>;
+  if (highlights.loading) return <h1>Loading....</h1>;
   if (highlights.error) return <h1>{highlights.error}</h1>;
   if (highlights.highlights)
     return (
