@@ -13,7 +13,7 @@ function Header() {
           <li>s.</Link>
           </li>
           <li>
-            <Link to="/germany">Germany....</Link>
+            <Link to="/germany">Germany..</Link>
           </li>
         </ul>
       </nav>
