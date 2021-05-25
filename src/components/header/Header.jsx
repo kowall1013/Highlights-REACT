@@ -8,12 +8,12 @@ function Header() {
       <nav>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/">He</Link>
           </li>
           <li>s.</Link>
           </li>
           <li>
-            <Link to="/germany">Germany..</Link>
+            <Link to="/germany">Gerny..</Link>
           </li>
         </ul>
       </nav>
